@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ce36143-f3e3-4f3b-bc0b-cc64e12f975a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Homework/src/HumanLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/HumanLifeCycle.java" afterDir="false" />
+    <list default="true" id="1ce36143-f3e3-4f3b-bc0b-cc64e12f975a" name="Changes" comment="NewFile">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/IHumanObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/src/Mother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/src/HumanLifeCycle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -45,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1635318534748</updated>
     </task>
+    <task id="LOCAL-00001" summary="NewFile">
+      <created>1635319059365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635319059365</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -57,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NewFile" />
+    <option name="LAST_COMMIT_MESSAGE" value="NewFile" />
   </component>
 </project>
