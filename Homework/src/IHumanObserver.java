@@ -5,25 +5,50 @@ public interface IHumanObserver {
                  boolean gender,
                  float weight,
                  int height,
-                 String location, int ageInYears) throws InterruptedException;
+                 boolean location, int ageInYears) throws InterruptedException;
 
-    void onKindergarten(boolean isLocalEstablishment, boolean isLuxuriousKindergarten, boolean isChildHappy);
+    void onKindergarten(boolean isLocalEstablishment,
+                        boolean isLuxuriousKindergarten,
+                        boolean isChildHappy) throws InterruptedException;
 
-    void onSchool(int amountOfMinutesToGetToSchool, boolean isSecondarySchoolOfMathematics, int averageMark);
+    void onSchool(int amountOfMinutesToGetToSchool,
+                  boolean isSecondarySchoolOfMathematics,
+                  int averageMark) throws InterruptedException;
 
-    void onUniversity(String establishmentName, String specialization, boolean isFreeEducation, boolean isWorkWhileStudy);
+    void onUniversity(String establishmentName,
+                      String specialization,
+                      boolean isFreeEducation,
+                      boolean isWorkWhileStudy) throws InterruptedException;
 
-    void onFindingJob(boolean isFound, double salary, int amountOfInterviews, int timeInMinutesFromWorkplace);
+    void onFindingJob(boolean isFound,
+                      double salary,
+                      int amountOfInterviews,
+                      int timeInMinutesFromWorkplace);
 
-    void onSeekingForWife();
+    void onSeekingForWife(boolean isMotherLikes,
+                          boolean isRich,
+                          String fromCountry,
+                          int herAge);
 
-    void onGettingMarried();
+    void onHavingKids(int kidsQuantity,
+                      boolean gender);
 
-    void onHavingKids();
+    void onStudyingJava(double cost,
+                        boolean isOnlineCourse,
+                        int amountOfMonthsToBecomeJunior);
 
-    void onChoosingJavaCourses();
+    void onRunningStartUp(boolean isDivorced,
+                          boolean isSuccessful,
+                          String lineOfBusiness,
+                          String companyName);
 
-    void onRunningStartUp();
+    void onSellingStartUp(double price,
+                          boolean isEnoughMoneyToRetire,
+                          boolean isHappyWithSpentEffortsAndTime);
 
-    void onDeath();
+    void onDeath(boolean isWifeCame,
+                 boolean isDiedFromAge,
+                 String placeWhereHeDied,
+                 int amountOfPeopleAtFuneral
+                 );
 }
