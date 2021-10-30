@@ -14,5 +14,6 @@ public class Main {
         human.beginSchoolStage(rg.getRandomMinutes(), rg.getRandomBoolean(), rg.getRandomAverageMark());
         human.enrollUniversity("New York University",
                 "Understanding International Business and Finance", rg.getRandomBoolean(), rg.getRandomBoolean());
+
     }
 }

@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ce36143-f3e3-4f3b-bc0b-cc64e12f975a" name="Changes" comment="Huh">
-      <change afterPath="$PROJECT_DIR$/Homework/src/RandomGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/src/IHumanObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/IHumanObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/src/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/Mother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/src/RandomGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/src/RandomGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/IHumanObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/IHumanObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/Mother.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/Mother.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/RandomGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/RandomGenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +32,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="204zEGwlamR8XM9RqKKVRpdEAGx" />
   <component name="ProjectViewState">

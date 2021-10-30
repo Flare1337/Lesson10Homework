@@ -20,35 +20,33 @@ public interface IHumanObserver {
                       boolean isFreeEducation,
                       boolean isWorkWhileStudy) throws InterruptedException;
 
-    void onFindingJob(boolean isFound,
-                      double salary,
+    void onFindingJob(double salary,
                       int amountOfInterviews,
-                      int timeInMinutesFromWorkplace);
+                      int timeInMinutesFromWorkplace) throws InterruptedException;
 
     void onSeekingForWife(boolean isMotherLikes,
                           boolean isRich,
-                          String fromCountry,
-                          int herAge);
+                          int herAge) throws InterruptedException;
 
     void onHavingKids(int kidsQuantity,
-                      boolean gender);
+                      boolean gender) throws InterruptedException;
 
     void onStudyingJava(double cost,
                         boolean isOnlineCourse,
-                        int amountOfMonthsToBecomeJunior);
+                        int amountOfMonthsToBecomeJunior) throws InterruptedException;
 
     void onRunningStartUp(boolean isDivorced,
                           boolean isSuccessful,
                           String lineOfBusiness,
-                          String companyName);
+                          String companyName) throws InterruptedException;
 
     void onSellingStartUp(double price,
                           boolean isEnoughMoneyToRetire,
-                          boolean isHappyWithSpentEffortsAndTime);
+                          boolean isHappyWithSpentEffortsAndTime) throws InterruptedException;
 
     void onDeath(boolean isWifeCame,
                  boolean isDiedFromAge,
                  String placeWhereHeDied,
                  int amountOfPeopleAtFuneral
-                 );
+                 ) throws InterruptedException;
 }

@@ -17,12 +17,6 @@ public class RandomGenerator {
         return (int) (Math.random() * (maxQuantity - minQuantity) + minQuantity);
     }
 
-    public int getRandomID() {
-        var minID = 1000;
-        var maxID = 2_000_000 + minID;
-        return (int) (Math.random() * (maxID - minID) + minID);
-    }
-
     public boolean getRandomBoolean() {
         var minQuantity = 1;
         var maxQuantity = 3 + 1;
