@@ -26,7 +26,7 @@ public class Mother implements IHumanObserver {
             System.out.println("Mother: In spite of the fact we couldn't get back home in time," +
                     "\nthe local doctors turned up to be professional enough.");
         }
-        Thread.sleep(300);
+        Thread.sleep(1000);
     }
 
     @Override
@@ -37,7 +37,7 @@ public class Mother implements IHumanObserver {
         else {
             System.out.println("Mother: *talks with her friends about mental health of children*");
         }
-        Thread.sleep(300);
+        Thread.sleep(1000);
         System.out.println("*A few moments later*");
         Thread.sleep(1500);
         if (isLuxuriousKindergarten) {
@@ -46,7 +46,7 @@ public class Mother implements IHumanObserver {
         else {
             System.out.println("Mother: Do you want this little toy soldier?");
         }
-        Thread.sleep(500);
+        Thread.sleep(1000);
     }
 
     @Override
@@ -64,7 +64,7 @@ public class Mother implements IHumanObserver {
         else {
             System.out.println("Mother: I've found a music school nearby, I'll be fun I swear.");
         }
-        Thread.sleep(500);
+        Thread.sleep(1000);
         System.out.println("*A couple of years later*");
         Thread.sleep(2000);
         if (averageMark > 3) {
@@ -169,7 +169,7 @@ public class Mother implements IHumanObserver {
                     "\nbut it's a bit expensive, don't you think?");
         }
         else {
-            System.out.println("Mother: Try out courses, it's not that expensive.");
+            System.out.println("Mother: If you wish so try out this course, it's not that expensive.");
         }
         Thread.sleep(1500);
         if (isOnlineCourse) {
@@ -183,7 +183,7 @@ public class Mother implements IHumanObserver {
             System.out.println("Mother: You've always been a smart and fast-paced in learning something new.");
         }
         else {
-            System.out.println("Mother: Everything new needs some time to understand, especially such intricate thing");
+            System.out.println("Mother: Everything new needs some time to understand, especially such an intricate thing");
         }
         Thread.sleep(1000);
     }

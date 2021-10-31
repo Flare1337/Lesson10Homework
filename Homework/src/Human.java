@@ -301,7 +301,7 @@ public class Human {
         }
         Thread.sleep(1500);
         if (isDiedFromAge) {
-            System.out.println("Ghost!: They are so silent?");
+            System.out.println("Ghost!: Why they are so silent?");
         }
         else {
             System.out.println("Ghost!: So many people and so much noise, but why?");
